@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Background-Home: #FEFEF4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* background-image: url(img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background-color: var(--Background-Home);
+}
+
+.elemento {
+    width: 50vh;
+    height: 50vh;
+    background-image: url("img/home/carta-fechada.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.elemento:hover {
+    cursor: pointer;
+    background-image: url("img/home/carta-aberta.png");
+    width: 60vh;
+    height: 60vh;
+}
+
+/* CARTA */
+
+.carta {
+    width: 50vh;
+    height: 50vh;
+    background-image: url("img/home/cartas.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.carta:hover {
+    cursor: pointer;
+    /* mix-blend-mode: multiply; */
+    transform: rotate(5deg); /* Gira 5 graus */
+}
