@@ -1,6 +1,7 @@
 const livro = document.querySelector('.livro');
 const img = document.querySelector('.livro-fechado');
 const secaoProjetos = document.querySelector('#projects'); 
+
 livro.addEventListener('click', () => {
     if (!livro.classList.contains('estagio-1') && !livro.classList.contains('estagio-2')) {
         // ESTADO: Estava fechado -> PAGE 1

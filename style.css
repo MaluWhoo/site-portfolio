@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 
-
 * {
     padding: 0;
     margin: 0;
@@ -42,7 +41,11 @@ section{
 }
 
 #home{
-    background-color: var(--Background-Home);
+    background-image: url("img/gif-back.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: var(--Background-Home); */
 }
 
 .curved-text {
@@ -111,9 +114,8 @@ section{
 }
 
 .livro.aberto {
-    transform: scale(1.1); /* Exemplo: ele aumenta um pouco */
+    transform: scale(1.1);
     /* background-image: url('img/page-1.png'); */
-    /* Você pode adicionar outros efeitos aqui, como sombra ou rotação */
 }
 
 #contact{
