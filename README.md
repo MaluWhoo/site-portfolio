@@ -1,7 +1,7 @@
 # Site Portfolio | HTML, CSS & JS
 
 <div align="center">
-    ![Logo peixe](./img/about/logo-peixe.png)
+  <img src="./img/about/logo-peixe.png" alt="Logo peixe" width="200">
 </div>
 
 ## Projeto 
