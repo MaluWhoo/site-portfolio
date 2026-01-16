@@ -6,7 +6,7 @@
 
 ## Projeto 
 
-COLOCAR O GIF AQUI
+<!-- COLOCAR O GIF AQUI -->
 
 <!-- ## 📂 Estrutura do Projeto
 
@@ -36,15 +36,11 @@ Esse projeto foi desenvolvido para estudos e ampliamentos dos meus conhecimentos
 
 ---
 
-<div align="center">
+<!-- <div align="center">
   
 []() 
 ****
 
-</div>
+</div> -->
 
-<!-- Colocar um gif da parte do about indo para o projects -->
 
-<!-- Colocar img -->
-
-<!-- Documentar -->
