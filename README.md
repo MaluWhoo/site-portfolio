@@ -6,6 +6,12 @@
 
 ## Projeto 
 
+## 🎯 Objetivos atuais
+
+[ ] Finalizar a seção de "Projetos".
+[ ] Finalizar a página do "Bug".
+[ ] Implementar Responsividade (Mobile First).
+
 <!-- COLOCAR O GIF AQUI -->
 
 <!-- ## 📂 Estrutura do Projeto
