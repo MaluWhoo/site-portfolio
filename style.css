@@ -17,6 +17,7 @@ html {
 
     --Background-Home: #FEFEF4;
     --Text-Hom: #004e7b;
+    --red: #a94053:
 }
 
 body {
@@ -118,9 +119,71 @@ section{
     /* background-image: url('img/page-1.png'); */
 }
 
+.bug img {
+    width: 28%;
+}
+
+.bug img:hover {
+    cursor: pointer;
+    transform: rotate(-5deg) scale(1.03);
+    filter: brightness(1.3);
+}
+
+.livro.estagio-2 .bug {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 #contact{
-    background-color: rgb(230, 217, 173);
-    height: 70vh;
+    background-color: #add8e6;
+    background-image: url("img/container-back.png");
+    background-repeat: no-repeat;   
+    background-position: center;
+    height: 40vh;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+}
+
+.contact-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#contact i {
+    font-size: 45px;
+    display: inline-block; 
+    width: auto; 
+    color: var(--red);
+}
+
+#contact i:hover {
+    transition: 0.3s;
+    color: rgb(243, 224, 224);
+}
+
+.footer-copy {
+    margin-top: 0.5rem;  
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.footer-copy p {
+    font-family: var(--Montserrat);
+    font-size: 0.85rem;    
+    color: #777;          
+    text-align: center;
+    letter-spacing: 1px;   
+    margin: 0.5rem;
 }
 
 .email {
@@ -151,26 +214,4 @@ footer {
     left: 62%;
     transform: translate(-50%, -50%);
     z-index: 10;
-}
-
-.bug img {
-    width: 28%;
-}
-
-/* VER SE EU CONSIGO COLOCAR UM BARULHINHO DEPOIS */
-
-.bug img:hover {
-    cursor: pointer;
-    transform: rotate(-5deg) scale(1.03);
-    filter: brightness(1.3);
-}
-
-.livro.estagio-2 .bug {
-    display: block;
-    animation: fadeIn 0.5s;
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }

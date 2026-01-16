@@ -8,7 +8,7 @@
 
 COLOCAR O GIF AQUI
 
-## 📂 Estrutura do Projeto
+<!-- ## 📂 Estrutura do Projeto
 
 ```
 site-portfolio/
@@ -22,7 +22,7 @@ site-portfolio/
 ├── script.js          # Lógica JavaScript
 └── img                # Imagens utilizadas no projeto   
 
-```
+``` -->
 
 ## 📄 Licença
 
