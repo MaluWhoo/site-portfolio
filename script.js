@@ -27,3 +27,14 @@ livro.addEventListener('click', () => {
         }, 400); 
     }
 });
+
+
+const bugLink = document.querySelector('.bug');
+const somBug = document.querySelector('#som-bug');
+
+// Quando o mouse entra no bug -> sonzinho maneirooo
+bugLink.addEventListener('mouseenter', () => {
+    somBug.currentTime = 0; 
+    somBug.volume = 0.5;
+    somBug.play();
+});
