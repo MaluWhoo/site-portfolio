@@ -1,7 +1,7 @@
 # Site Portfolio | HTML, CSS & JS
 
 <div align="center">
-  <img src="./img/about/logo-peixe.png" alt="Logo peixe" width="300">
+  <a href="https://maluwhoo.github.io/site-portfolio/"><img src="./img/about/logo-peixe.png" alt="Logo peixe" width="250"></a>
 </div>
 
 ## Projeto 
