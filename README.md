@@ -9,7 +9,7 @@
 Este é o meu espaço na web onde conto um pouco sobre mim e meus projetos e aplico na prática tudo o que venho estudando sobre desenvolvimento Web.
 
 <div align="center">
-  <img src="img/prints/screenshot-1.png" alt="" width="600">
+  <img src="img/prints/screenshot-1.png" alt="" width="800">
 </div>
 
 ## 🎯 Objetivos atuais
