@@ -14,6 +14,9 @@ Este é o meu espaço na web onde conto um pouco sobre mim e meus projetos e apl
 
 ## 🎯 Objetivos atuais
 
+### Atual ...
+- [ ] Organização da Home (pasta, codigos, etc).
+
 - [ ] Organização das pastas e arquivos do projeto.
 - [ ] Organização dos códigos.
 - [ ] Finalizar a seção de "Projetos".
