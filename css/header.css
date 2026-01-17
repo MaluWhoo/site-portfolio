@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('../css/variables.css');
 
 * {
     padding: 0;
@@ -8,7 +9,6 @@
 
 :root {
     --Montserrat: "Montserrat", sans-serif;
-    --red: #a94053;
 }
 
 header {
@@ -22,24 +22,23 @@ header {
     right: 8rem;
     z-index: 1000;
     margin: 2rem;
-}
 
-header a {
-    text-decoration: none;
-    color: var(--red);
-}
+    ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 6rem;
-}
+    li {
+        a {
+            color: var(--color-red);
+            text-decoration: none;
 
-header a:hover {
-    text-decoration: underline;
-}
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 
-.nav-link.active {
-    font-weight: bold;
-}    
+}
