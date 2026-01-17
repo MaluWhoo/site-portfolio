@@ -16,7 +16,7 @@ Este é o meu espaço na web onde conto um pouco sobre mim e meus projetos e apl
 
 ### Atual ...
 - [ ] Organização da Home (pasta, codigos, etc).
-
+<br>
 - [ ] Organização das pastas e arquivos do projeto.
 - [ ] Organização dos códigos.
 - [ ] Finalizar a seção de "Projetos".
