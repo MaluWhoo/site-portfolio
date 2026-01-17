@@ -17,6 +17,7 @@ Este é o meu espaço na web onde conto um pouco sobre mim e meus projetos e apl
 ### Atual ...
 - [ ] Organização das pastas e arquivos do projeto...
 <br>
+
 - [ ] Organização dos códigos.
 - [ ] Finalizar a seção de "Projetos".
 - [ ] Finalizar a página do "Bug".
