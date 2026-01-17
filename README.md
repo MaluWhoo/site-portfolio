@@ -15,6 +15,7 @@ Este é o meu espaço na web onde conto um pouco sobre mim e meus projetos e apl
 ## 🎯 Objetivos atuais
 
 - [ ] Organização das pastas e arquivos do projeto.
+- [ ] Organização dos códigos.
 - [ ] Finalizar a seção de "Projetos".
 - [ ] Finalizar a página do "Bug".
 - [ ] Implementar Responsividade (Mobile First).
