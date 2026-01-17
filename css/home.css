@@ -13,6 +13,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: var(--color-1);
+
 }
 
 .elemento {
@@ -22,22 +23,27 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    /* Colocar sobra ao redor do png ao invés de colocar no quadrado da foto :) */
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1)); 
+
+    &:hover {
+        cursor: pointer;
+        background-image: url("img/home/carta-aberta.png");
+        width: 60vh;
+        height: 60vh;
+    }
 }
 
-.elemento:hover {
-    cursor: pointer;
-    background-image: url("img/home/carta-aberta.png");
-    width: 60vh;
-    height: 60vh;
-}
-
-.carta {
+.letter-open {
     width: 50vh;
     height: 50vh;
     background-image: url("img/home/cartas.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1)); 
 
     &:hover {
         cursor: pointer;
