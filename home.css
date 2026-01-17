@@ -1,11 +1,9 @@
+@import url('css/variables.css');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-:root {
-    --Background-Home: #FEFEF4;
 }
 
 body {
@@ -14,13 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
-    /* background-image: url(img/fundo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-
-    background-color: var(--Background-Home);
+    background-color: var(--color-1);
 }
 
 .elemento {
@@ -39,8 +31,6 @@ body {
     height: 60vh;
 }
 
-/* CARTA */
-
 .carta {
     width: 50vh;
     height: 50vh;
@@ -48,10 +38,9 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
 
-.carta:hover {
-    cursor: pointer;
-    /* mix-blend-mode: multiply; */
-    transform: rotate(5deg); /* Gira 5 graus */
+    &:hover {
+        cursor: pointer;
+        transform: rotate(5deg);
+    }
 }
