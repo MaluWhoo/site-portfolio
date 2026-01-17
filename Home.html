@@ -3,14 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site</title>
+    <title>Malu's Site | Portfolio</title>
 
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+
 </head>
 <body>
-    <main>
-        <a href="carta-sobre.html"><div class="elemento"></div></a>
-    </main>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-container">
+            <svg viewBox="0 0 500 150" class="curved-text">
+                <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" fill="transparent"/>
+                <text width="500">
+                    <textPath xlink:href="#curve" startOffset="50%" text-anchor="middle">
+                        Malu's Site
+                    </textPath>
+                </text>
+            </svg>
+            <div class="logo">
+                <a href="#about"><img src="img/about/logo-peixe.png" alt="logo-peixe" class="logo-peixe"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="livro">
+            <img src="img/livro-fechado.png" alt="livro fechado" class="livro-fechado">
+
+            <a href="bug-site/outros/bug.html" class="bug">
+                <audio id="som-bug" src="bug-site/outros/click-noise.wav" preload="auto"></audio>
+                <img src="bug-site/outros/bug.png" alt="Bug">
+            </a>
+        </div>
+    </section>
+
+    <!-- <section class="projects" id="projects">
+        <div>
+            Projects
+        </div>
+    </section> -->
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <ul class="contact-links">
+                <a href="https://www.linkedin.com/in/maria-luiza-lima-05911b298/">
+                    <i class="ph ph-linkedin-logo"></i>
+                </a>
+                <a href="https://github.com/MaluWhoo" target="_blank">
+                    <i class="ph ph-github-logo"></i>
+                </a>
+                <a href="mailto:marialuizalimavl90@.com" target="_blank">
+                    <i class="ph ph-envelope"></i>
+                </a>
+            </ul>
+
+            <div class="footer-copy">
+                <p>&copy; 2026 Malu's Portfolio. Be creative.</p>
+            </div>            
+        </div>
+    </section>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
