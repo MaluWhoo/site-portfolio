@@ -16,7 +16,7 @@ body {
 }
 
 .elemento {
-    width: 50vh;
+    width: clamp(400px, 4vh, 500px);
     height: 50vh;
     background-image: url("../img/home/carta-fechada.png");
     background-size: contain;
@@ -29,13 +29,12 @@ body {
     &:hover {
         cursor: pointer;
         background-image: url("../img/home/carta-aberta.png");
-        width: 60vh;
-        height: 60vh;
+        width: clamp(400px, 4vh, 500px);
     }
 }
 
 .letter-open {
-    width: 50vh;
+    width: clamp(400px, 4vh, 500px);
     height: 50vh;
     background-image: url("../img/home/cartas.png");
     background-size: contain;
@@ -49,3 +48,4 @@ body {
         transform: rotate(5deg);
     }
 }
+
