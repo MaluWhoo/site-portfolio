@@ -12,16 +12,26 @@ if (livro && imgLivro) {
             livro.classList.add('estagio-1');
             imgLivro.src = 'img/page-1.png'; 
 
+            if ('estagio-1') {
+                imgLivro.style.width = 'clamp(430px, 30vw, 800px)';
+            } 
+
         } else if (livro.classList.contains('estagio-1')) {
             // ESTADO: Estava na Página 1 ->PAGE 2
             livro.classList.remove('estagio-1');
             livro.classList.add('estagio-2');
             imgLivro.src = 'img/page-2.png'; 
+
+            if ('estagio-2') {
+                imgLivro.style.width = 'clamp(430px, 30vw, 800px)';
+            } 
+            // imgLivro.style.width = 'clamp(430px, 30vw, 800px)';
             
         } else {
             // ESTADO: Estava na Página 2 -> Fecha novamente
             livro.classList.remove('estagio-2');
             imgLivro.src = 'img/livro-fechado.png'; 
+            imgLivro.style.width = 'clamp(350px, 20vw, 800px)';
 
             setTimeout(() => {
                 secaoProjetos.scrollIntoView({ 
